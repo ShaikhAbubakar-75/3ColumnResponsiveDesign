@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    font-family: "Lexend Deca";
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card h2{
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.card-container{
+   margin: 1.5rem;
+   color: white;
+   display: flex;
+   border-radius: 10px;
+   overflow: hidden;
+   max-width: 900px;
+   /* margin-inline: auto; */
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    flex-basis: 100%;
+}
+img{
+    width: 64px;
+    height: 40px;
+}
+.orange-card{
+    background-color: #E28525;
+    padding: 3rem;
+}
+.cyan-card{
+    background-color: #016972;
+    padding: 3rem;
+}
+.darkCyan-card{
+    background-color: #00403F;
+    padding: 3rem;
+}
+.card p{
+    opacity: 0.7;
+    line-height: 1.69;
+    margin-bottom: 2.8rem;
+}
+.card a{
+    border: 2px solid white;
+    padding: 1em 2em;
+    border-radius: 2em;
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+@media (max-width:600px){
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+    }
+}
